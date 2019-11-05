@@ -71,7 +71,7 @@ class Vetor:
     @return boolean True se forem igual, False caso contrário
     '''
     def __eq__(self, vetor):
-        return NotImplementedError
+        raise NotImplementedError
     
     def __neq__(self, vetor):
         return not self.__eq__(vetor)
