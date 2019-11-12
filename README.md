@@ -10,7 +10,7 @@ Este repositório do github está no formato de template, para criar a cópia pa
  <figcaption>Tutorial disponível <a href="https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/">aqui</a>. </figcaption>
 </figure>
 
-Clicando em __Use this template__, e nomeando o novo repositório como fmcc2-lab20192-aluno1-aluno2. Substituindo aluno1 e aluno2 pelo primeiro nome dos membros da dupla. Em seguida marque o repositório como privado, e por fim __Create repository from template__.
+Clicando em __Use this template__, e nomeando o novo repositório como fmcc2-lab20192-aluno1-aluno2. Substituindo aluno1 e aluno2 pelo primeiro nome dos membros da dupla. Em seguida marque o repositório como privado, e por fim __Create repository from template__. Agora adicione o [professor](https://github.com/thiagomanel) e o [monitor](https://github.com/issilva5) como colaboradores.
 
 Feito isso leia o disposto [aqui](descricao.ipynb).
 
