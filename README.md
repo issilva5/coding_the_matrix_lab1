@@ -10,7 +10,9 @@ Este repositório do github está no formato de template, para criar a cópia pa
  <figcaption>Tutorial disponível <a href="https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/">aqui</a>. </figcaption>
 </figure>
 
- Clicando em __Use this template__, e nomeando o novo repositório como fmcc2-lab20192-aluno1-aluno2. Substituindo aluno1 e aluno2 pelo primeiro nome dos membros da dupla. Em seguida marque o repositório como privado, e por fim __Create repository from template__.
+Clicando em __Use this template__, e nomeando o novo repositório como fmcc2-lab20192-aluno1-aluno2. Substituindo aluno1 e aluno2 pelo primeiro nome dos membros da dupla. Em seguida marque o repositório como privado, e por fim __Create repository from template__.
+
+Feito isso leia o disposto [aqui](descricao.ipynb).
 
 ## Submissão
 A submissão deve ser feita apenas após a conclusão do mesmo e tem como data limite 28/11/2019. Seguindo este [formulário](https://forms.gle/EKm64xfg95htC79p9).
