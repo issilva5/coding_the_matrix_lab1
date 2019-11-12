@@ -12,6 +12,7 @@ def ler_votacao(path):
 
 	f = open(path, 'r')
 	csv_file = csv.reader(f)
+	headers = next(csv_file, None)
 
 	voting_dict = {}
 
