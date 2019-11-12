@@ -18,4 +18,6 @@ votos_wide <- votos %>%
 
 total_votos <- n_distinct(votos$id_votacao)
 
-write_csv(votos_wide, here('votos.csv'))
+votos_wide %>% distinct(id_deputado)
+
+write_csv(votos_wide, here('votos2.csv'))
