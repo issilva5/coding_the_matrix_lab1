@@ -66,6 +66,12 @@ class Vetor:
         return vetor.__sub__(self)
     
     '''
+    Implementa a divisão por escalar.
+    '''
+    def __truediv__(self, fator):
+        return self.__mul__(1.0/fator);
+    
+    '''
     Implementa a igualdade entre vetores
     @param vetor Vetor a ser comparado
     @return boolean True se forem igual, False caso contrário
@@ -76,5 +82,8 @@ class Vetor:
     def __neq__(self, vetor):
         return not self.__eq__(vetor)
     
+    '''
+    Implementa uma representação textual para o vetor.
+    '''
     def __str__(self):
         return "Vetor" + str(self.entradas)
