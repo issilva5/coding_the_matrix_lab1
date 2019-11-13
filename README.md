@@ -26,5 +26,5 @@ Nosso [conjunto de dados](data) contém dois arquivos. O arquivo ```exemplo.csv`
 ## Agradecimentos
 
 [Itallo Silva](https://github.com/issilva5) por ter criado a descrição e o código base deste projeto.
-[Jefferson Neves])(https://github.com/jeffersonrpn) por ter disponibilizado a base de dados.
+[Jefferson Neves](https://github.com/jeffersonrpn) por ter disponibilizado a base de dados.
 
