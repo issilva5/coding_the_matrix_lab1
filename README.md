@@ -1,6 +1,6 @@
 # Laboratório: Comparando políticas de votação
 
-Neste laboratório, iremos usar vetores para avaliar objetivamente a mentalidade política dos senadores que nós representam. O registro de voto de cada senador será representado por um vetor cujas entradas podem ser 0, 1 ou -1, indicando que o parlamentar votou por abstenção, sim ou não numa dada lei, respectivamente. A partir da diferença entre os "vetores de votação" de dois senadores, nós podemos dissipar a neblina da política e ver como nossos representantes se posicionam, utilizando para isso o produto interno.
+Neste laboratório, iremos usar vetores para avaliar objetivamente a mentalidade política dos senadores que nos representam. O registro de voto de cada senador será representado por um vetor cujas entradas podem ser 0, 1 ou -1, indicando que o parlamentar votou por abstenção, sim ou não numa dada lei, respectivamente. A partir da diferença entre os "vetores de votação" de dois senadores, nós podemos dissipar a neblina da política e ver como nossos representantes se posicionam, utilizando para isso o produto interno.
 
 ## A estrutura de laboratório
 
