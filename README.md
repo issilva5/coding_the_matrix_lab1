@@ -15,7 +15,7 @@ Disponível [aqui](descricao.ipynb), este notebook descreve quais funcionalidade
 A pasta [scr](src) é onde se encontram os arquivos de código que devem ser modificados para a implementação das funcionalidades deste laboratório. São eles:
  - vetor.py, onde devem ser implementadas as operações de um vetor, tais como: soma entre vetores, produto por escalar, produto interno, entre outras.
  - senador.py, implementa a classe Senador que será utilizada no laboratório para encapsular e abstrair a representação do parlamentar.
- - file_reader.py, disponibiliza uma a função ler_votacao, a qual realiza a leitura dos dados de votação e retorna um dicionário que tem como chave o nome do parlamentar, e como item um objeto da classe Senador.
+ - file_reader.py, disponibiliza a função ler_votacao, a qual realiza a leitura dos dados de votação e retorna um dicionário que tem como chave o nome do parlamentar, e como item um objeto da classe Senador.
  - main.py, classe principal do laboratório, nela devem ser implementadas as rotinas deste laboratório.
  - my_tests.py, classe disponível contendo casos de testes para a verificação da implementação do laboratório.
 
