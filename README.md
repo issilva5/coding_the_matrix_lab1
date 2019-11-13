@@ -1,6 +1,6 @@
 # Laboratório: Como vota o nosso congresso?
 
-Neste laboratório, iremos estudar o padrão de votação dos nossos parlamentares. Queremos saber qual parecido são os votos, em particular, se as bancadas de cada partido votam de maneira coerente. O registro de voto de cada senador será representado por um vetor cujas entradas podem ser 0, 1 ou -1, indicando que o parlamentar votou por abstenção, sim ou não numa data proposta, respectivamente.
+Neste laboratório, iremos estudar o padrão de votação dos nossos parlamentares. Queremos saber qual parecido são os votos, em particular, se as bancadas de cada partido votam de maneira coerente. O registro de voto de cada deputado será representado por um vetor cujas entradas podem ser 0, 1 ou -1, indicando que o parlamentar votou por abstenção, sim ou não numa data proposta, respectivamente.
 
 ## A estrutura de laboratório
 
@@ -14,8 +14,8 @@ Este [notebook](descricao.ipynb) descreve quais funcionalidades devem ser implem
 
 O diretório [src](src) contém uma base de código que precisará ser modificada para implementar as funcionalidades requisitadas. Esta base de código inclue:
  - ```vetor.py```, no qual devem ser implementadas as operações sobre vetores, tais como: soma, produto por escalar, produto interno, entre outras;
- - ```senador.py```, implementa a classe Senador que será utilizada no laboratório para encapsular e abstrair a representação do parlamentar.
- - ```file_reader.py```, disponibiliza a função ```ler_votacao```, a qual realiza a leitura dos dados de votação e retorna um dicionário que tem como chave o nome do parlamentar, e como item um objeto da classe Senador.
+ - ```deputado.py```, implementa a classe Deputado que será utilizada no laboratório para encapsular e abstrair a representação do parlamentar.
+ - ```file_reader.py```, disponibiliza a função ```ler_votacao```, a qual realiza a leitura dos dados de votação e retorna um dicionário que tem como chave o nome do parlamentar, e como item um objeto da classe Deputado.
  - ```main.py```, classe principal do laboratório, nela devem ser implementadas as rotinas deste laboratório.
  - ```my_tests.py```, classe disponível contendo casos de testes para a verificação da implementação do laboratório.
 

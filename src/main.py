@@ -1,137 +1,134 @@
 #coding: utf-8
 
-from senador import *
+from deputado import *
 from vetor import *
 
 matricula_aluno_1 = "" #Preencha sua matrícula dentro desta variável
 matricula_aluno_2 = "" #Preencha sua matrícula dentro desta variável
 
 '''
-Tarefa 02 - Comparar o alinhamento de dois senadores
-A função abaixo recebe o nome de dois senadores e o
-dicionário mapeando o nome do senador com seu objeto
-da classe Senador, e retornar o produto interno representando
-o grau de similaridade entre a política de voto dos dois senadores dados.
+Tarefa 02 - Comparar o alinhamento de dois deputados
+A função abaixo recebe o nome de dois deputados e o
+dicionário mapeando o nome do deputado com seu objeto
+da classe Deputado, e retorna o produto interno representando
+o grau de similaridade entre a política de voto dos dois deputados dados.
 '''
-def comparar(sen_a, sen_b, senadores):
+def comparar(dep_a, dep_b, deputados):
 	raise NotImplementedError
 
 '''
-Tarefa 03 - Encontrar o senador mais similar com um senador dado
-A função deve receber o nome de um senador e o dicionário mapeando
-o nome do senador com seu objeto da classe Senador, e o nome do senador 
+Tarefa 03 - Encontrar o deputado mais similar com um deputado dado
+A função deve receber o nome de um deputado e o dicionário mapeando
+o nome do deputado com seu objeto da classe Deputado, e o nome do deputado 
 mais similar ao que foi dado como entrada. No caso, de haver mais de um
-senador com o grau de similaridade máxima, todos os nomes devem ser retornados
+deputado com o grau de similaridade máxima, todos os nomes devem ser retornados
 em uma lista.
 '''
-def mais_similar(sen, senadores):
+def mais_similar(dep, deputados):
 	raise NotImplementedError
 
 '''
-Tarefa 04 - Encontrar o senador menos similar com um senador dado
-Similar a tarefa 03, porém deve retornar o nome do senador menos similar
+Tarefa 04 - Encontrar o deputado menos similar com um deputado dado
+Similar a tarefa 03, porém deve retornar o nome do deputado menos similar
 ou uma lista com todos os nomes, em caso de empate.
 '''
-def menos_similar(sen, senadores):
+def menos_similar(dep, deputados):
 	raise NotImplementedError
 
 '''
-Tarefa 05 - Implementar a função encontra_similaridade_media(sen, sen_set, senadores)
-que, dado o nome de um senador, compara seu registro de votos com o registro de votos
-com todos os senadores cujos nomes estão em sen_set, computando um produto interno para
+Tarefa 05 - Implementar a função encontra_similaridade_media(dep, dep_set, deputados)
+que, dado o nome de um deputado, compara seu registro de votos com o registro de votos
+com todos os deputados cujos nomes estão em dep_set, computando um produto interno para
 cada, e então retornando o produto interno médio.
 '''
-def encontra_similaridade_media(sen, sen_set, senadores):
+def encontra_similaridade_media(dep, dep_set, deputados):
 	raise NotImplementedError
 
 '''
-Tarefa 06 - Implemente a função encontra_registro_medio(sen set, voting dict) que,
-dado um conjunto com o nome dos senadores, encontre a média do registro de votação.
+Tarefa 06 - Implemente a função encontra_registro_medio(dep_set, voting_dict) que,
+dado um conjunto com o nome dos deputados, encontre a média do registro de votação.
 Isto é, realize adição vetorial na listas representando o registro de suas votações,
 e então divida a soma pelo número de vetores. O resultado deve ser um vetor.
 '''
-def encontra_registro_medio(sen_set, senadores):
+def encontra_registro_medio(dep_set, deputados):
 	raise NotImplementedError
 
 '''
 Tarefa 07 - Implemente as funções a seguir
-- registro_medio_partido(partido, senadores) que, dado o nome de um partido 
+- registro_medio_partido(partido, deputados) que, dado o nome de um partido 
   encontra o registro médio de votação deste partido;
-- registro_medio_estado(estado, senadores) que, dado o nome de um estado do
+- registro_medio_estado(estado, deputados) que, dado o nome de um estado do
   Brasil encontra o registro médio de votação deste estado;
-- registro_medio_regiao(regiao, senadores) que, dada o nome de uma região do
+- registro_medio_regiao(regiao, deputados) que, dada o nome de uma região do
   Brasil encontra o registro médio de votação desta região.
 
 O retorno de todas as funções descritas nesta tarefa deve ser um vetor.
 '''
 
-def registro_medio_partido(partido, senadores):
+def registro_medio_partido(partido, deputados):
 	raise NotImplementedError
     
-def registro_medio_estado(estado, senadores):
+def registro_medio_estado(estado, deputados):
 	raise NotImplementedError
     
-def registro_medio_regiao(regiao, senadores):
+def registro_medio_regiao(regiao, deputados):
 	raise NotImplementedError
 
 '''
 Tarefa 08 - Implemente as funções a seguir:
-- similaridade_no_partido(sen, senadores) que,
-  dado o nome de um senador encontra o grau de similaridade dele com seu partido.
-- similaridade_no_estado(sen, senadores) que,
-  dado o nome de um senador encontra o grau de similaridade dele com seu estado.
-- similaridade_na_regiao(sen, senadores) que,
-  dado o nome de um senador encontra o grau de similaridade dele com sua regiao.
+- similaridade_no_partido(dep, deputados) que,
+  dado o nome de um deputado encontra o grau de similaridade dele com seu partido.
+- similaridade_no_estado(dep, deputados) que,
+  dado o nome de um deputado encontra o grau de similaridade dele com seu estado.
+- similaridade_na_regiao(dep, deputados) que,
+  dado o nome de um deputado encontra o grau de similaridade dele com sua regiao.
+- encontra_mais_alinhado_partido(partido, deputados) que,
+  dado o nome de um partido encontra o deputado mais similar ao partido.
   
-Para as funções acima o retorno deve ser uma lista contendo o nome do senador e seu respectivo
+Para as funções acima o retorno deve ser uma lista contendo o nome do deputado e seu respectivo
 grau de similaridade.
-
-- encontra_mais_alinhado_partido(partido, senadores) que,
-  dado o nome de um partido encontra o senador mais similar ao partido.
-  
-Para esta última o retorno deve ser o nome do senador.
 '''
 
-def similaridade_no_partido(sen, senadores):
+def similaridade_no_partido(dep, deputados):
 	raise NotImplementedError
 
-def similaridade_no_estado(sen, senadores):
+def similaridade_no_estado(dep, deputados):
 	raise NotImplementedError
 
-def similaridade_na_regiao(sen, senadores):
+def similaridade_na_regiao(dep, deputados):
 	raise NotImplementedError
 
-def encontra_mais_alinhado_partido(partido, senadores):
+def encontra_mais_alinhado_partido(partido, deputados):
 	raise NotImplementedError
 
 '''
 Tarefa 09 - Implemente as funções a seguir:
-- rivais_amargos(senadores) que encontra os dois senadores menos similares do conjunto inteiro.
-- amigos_adocicados(senadores) que encontra os dois senadores mais similares do conjunto inteiro.
+- rivais_amargos(deputados) que encontra os dois deputados menos similares do conjunto inteiro.
+- amigos_adocicados(deputados) que encontra os dois deputados mais similares do conjunto inteiro.
 
-O retorno deve ser uma lista contendo os nomes dos dois senadores.
+O retorno deve ser uma lista contendo os nomes dos dois deputados.
 '''
 
-def rivais_amargos(senadores):
+def rivais_amargos(deputados):
 	raise NotImplementedError
 
-def amigos_adocicados(senadores):
+def amigos_adocicados(deputados):
 	raise NotImplementedError
 
 '''
 Tarefa 10 - Implemente as funções a seguir:
-- encontra_partido_mais_coerente(senadores) que encontra o partido
+- encontra_partido_mais_coerente(deputados) que encontra o partido
   cujos congressistas são mais similares entre si, ou seja, cuja média das
-  similaridades entre cada senador é a maior.
-- encontra_partido_menos_coerente(senadores) que encontra o partido
+  similaridades entre cada deputado é a maior.
+- encontra_partido_menos_coerente(deputados) que encontra o partido
   cujos congressistas são menos similares entre si, ou seja, cuja média das
-  similaridades entre cada senador é a menor.
+  similaridades entre cada deputado é a menor.
   
 O retorno, para ambas, deve ser o nome do partido.
 '''
 
-def encontra_partido_mais_coerente(senadores):
+def encontra_partido_mais_coerente(deputados):
 	raise NotImplementedError
     
-def encontra_partido_menos_coerente(senadores):
+def encontra_partido_menos_coerente(deputados):
 	raise NotImplementedError

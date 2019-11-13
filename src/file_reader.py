@@ -1,7 +1,7 @@
 #coding: utf-8
 
 import csv
-from senador import *
+from deputado import *
 from vetor import *
 
 '''
@@ -17,10 +17,10 @@ def ler_votacao(path):
 	voting_dict = {}
 
 	for row in csv_file:
-		sen_nome = row[0]
-		sen_estado = row[1]
-		sen_partido = row[2]
-		sen_votos = list(map(int, row[3:len(row)]))
-		voting_dict[sen_nome] = Senador(sen_nome, sen_estado, sen_partido, Vetor(sen_votos))
+		dep_nome = row[0]
+		dep_estado = row[1]
+		dep_partido = row[2]
+		dep_votos = list(map(int, row[3:len(row)]))
+		voting_dict[dep_nome] = Deputado(dep_nome, dep_estado, dep_partido, Vetor(dep_votos))
 
 	return voting_dict

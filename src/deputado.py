@@ -1,6 +1,6 @@
 #coding: utf-8
 
-class Senador:
+class Deputado:
     
     #Construtor da classe
     def __init__(self, nome, estado, partido, votos):
