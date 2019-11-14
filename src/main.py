@@ -3,8 +3,7 @@
 from deputado import *
 from vetor import *
 
-matricula_aluno_1 = "" #Preencha sua matrícula dentro desta variável
-matricula_aluno_2 = "" #Preencha sua matrícula dentro desta variável
+matriculas = ["", "", ""] #Preencham suas matrículas dentro desta variável
 
 '''
 Tarefa 02 - Comparar o alinhamento de dois deputados
