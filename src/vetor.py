@@ -68,7 +68,7 @@ class Vetor:
     '''
     Implementa a divisão por escalar.
     '''
-    def __truediv__(self, fator):
+    def __div__(self, fator):
         return self.__mul__(1.0/fator);
     
     '''
