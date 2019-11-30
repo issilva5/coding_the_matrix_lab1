@@ -61,6 +61,8 @@ Tarefa 07 - Implemente as funções a seguir
 - registro_medio_regiao(regiao, deputados) que, dada o nome de uma região do
   Brasil encontra o registro médio de votação desta região.
 
+  Considere os nomes da regiões brasileiras sendo NORTE, SUL, SUDESTE, NORDESTE e CENTRO-OESTE
+
 O retorno de todas as funções descritas nesta tarefa deve ser um vetor.
 '''
 
