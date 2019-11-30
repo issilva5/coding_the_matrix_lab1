@@ -61,4 +61,4 @@ test(registro_medio_regiao("NORTE", deputados), Vetor([0.3013698630136986, -0.68
 test(similaridade_no_partido("67138", deputados), 117.1090)
 test(similaridade_no_estado("67138", deputados), 91.9285)
 test(similaridade_na_regiao("67138", deputados), 60.2311)
-test(encontra_mais_alinhado_partido("PT", deputados), ['194340', 859.0], order = 1)
+test(encontra_mais_alinhado_partido("PT", deputados), ['74041', 423.865671641791], order = 1)
