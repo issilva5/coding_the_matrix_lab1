@@ -81,10 +81,13 @@ Tarefa 08 - Implemente as funções a seguir:
   dado o nome de um deputado encontra o grau de similaridade dele com seu estado.
 - similaridade_na_regiao(dep, deputados) que,
   dado o nome de um deputado encontra o grau de similaridade dele com sua regiao.
+
+Para as funções acima o retorno deve ser o respectivo grau de similaridade.
+
 - encontra_mais_alinhado_partido(partido, deputados) que,
   dado o nome de um partido encontra o deputado mais similar ao partido.
   
-Para as funções acima o retorno deve ser uma lista contendo o nome do deputado e seu respectivo
+Para a função acima o retorno deve ser uma lista contendo o nome do deputado e seu respectivo
 grau de similaridade.
 '''
 
